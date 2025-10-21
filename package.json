@@ -1,0 +1,10 @@
+{
+  "name": "markmap-pages",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "mkdir -p web && markmap -o ./web/index.html ./calendar.md"
+  },
+  "dependencies": {
+    "markmap-cli": "^0.15.0"
+  }
+}
