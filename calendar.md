@@ -1,12 +1,10 @@
 ---
 markmap:
-  initialExpandLevel: 2
+  initialExpandLevel: 1
   nodeMinWidth: 100
   fontSize: 16
 
 ---
-# 2023
-
 # JAN
 
 ## [iOS Conf SG](https://iosconf.sg/)	
