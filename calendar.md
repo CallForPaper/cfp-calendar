@@ -1,8 +1,11 @@
 ---
 markmap:
-  initialExpandLevel: 1
+  initialExpandLevel: 2
+  nodeMinWidth: 100
+  fontSize: 16
 
 ---
+# 2023
 
 # JAN
 

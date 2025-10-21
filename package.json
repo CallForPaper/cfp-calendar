@@ -1,9 +1,22 @@
 {
-  "name": "markmap-pages",
+  "name": "cfp-calendar",
   "version": "1.0.0",
+  "description": "Interactive mindmap of events and conferences worldwide",
+  "main": "index.js",
   "scripts": {
-    "build": "mkdir -p web && markmap -o ./web/index.html ./calendar.md"
+    "build": "mkdir -p web && markmap -o ./web/index.html ./calendar.md --template ./template.html"
   },
+  "keywords": [
+    "events",
+    "conferences",
+    "mindmap",
+    "calendar",
+    "meetups",
+    "seminars",
+    "workshops"
+  ],
+  "author": "Saurabh Sharma",
+  "license": "MIT",
   "dependencies": {
     "markmap-cli": "^0.15.0"
   }
