@@ -1,6 +1,6 @@
 ---
 markmap:
-  initialExpandLevel: 5
+  initialExpandLevel: 2
   nodeMinWidth: 100
   fontSize: 16
   maxWidth: 300
