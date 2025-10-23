@@ -2,9 +2,12 @@
   "name": "markmap-pages",
   "version": "1.0.0",
   "scripts": {
-    "build": "mkdir -p web && markmap -o ./web/index.html ./calendar.md"
+    "build": "mkdir -p web && markmap -o ./web/index.html ./calendar.md && node add-seo-meta.js"
   },
   "dependencies": {
     "markmap-cli": "^0.15.0"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.12"
   }
 }
